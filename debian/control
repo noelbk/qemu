@@ -1,0 +1,15 @@
+Source: qemu
+Maintainer: Noel Burton-Krahn <noel@pistoncloud.com>
+Section: networking
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: qemu
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: qemu-keymaps, qemu-system, qemu-system-common, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-user, qemu-user-static, qemu-utils, qemu-guest-agent, qemu-kvm, qemu-common, qemu-system-arch64, ipxe-qemu
+Provides: qemu-system, qemu-system-common, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-user, qemu-utils, qemu-guest-agent, qemu-kvm, qemu-system-arch64, ipxe-qemu
+Description: 
+ qemu + ipmi originally forked from https://github.com/cminyard/qemu.git, stable-2.2-ipmi
+
