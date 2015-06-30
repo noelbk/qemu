@@ -1,0 +1,13 @@
+qemu (99999:2.2+ipmi) qcluster; urgency=medium
+
+  * fixed control and version to install over ubuntu's 1:2.2+dfsg-5expubuntu9.3
+  * bumped epoch to 99999 
+
+ -- Noel Burton-Krahn <noel@burton-krahn.com>  Thu, 01 Oct 2015 09:26:32 -0700
+
+qemu (2.2-ipmi) trusty; urgency=medium
+
+  * Initial release.
+  * released to trusty
+
+ -- Noel Burton-Krahn <noel@burton-krahn.com>  Fri, 19 Jun 2015 10:45:10 -0700
